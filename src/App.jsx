@@ -36,23 +36,23 @@ const MODULES_DATA = {
     accent: "#3B6FE8", accentLight: "#EEF2FF", iconKey: "target", badge: "Négociation", estimatedTime: 120,
     videos: [
       {
-        id: "v1", title: "Business Negotiation Vocabulary", source: "BBC Learning English",
-        ytId: "2g_xGG1NKBA", duration: "6 min",
-        tip: "Notez les expressions pour faire une offre et une contre-offre.",
+        id: "v1", title: "Negotiating – English at Work #30", source: "BBC Learning English",
+        ytId: "-HZrTUNJKCs", duration: "~5 min",
+        tip: "Regardez comment Anna négocie avec un client. Notez les expressions utilisées pour faire et refuser une offre.",
         questions: [
-          { q: "What does 'to make a concession' mean?", opts: ["Refuser une offre", "Faire une concession", "Proposer un délai", "Signer un contrat"], ans: 1 },
-          { q: "Which phrase is used to soften a refusal?", opts: ["Absolutely not.", "I'm afraid that won't be possible.", "No way.", "We disagree."], ans: 1 },
-          { q: "What is a 'counteroffer'?", opts: ["Une offre initiale", "Une réponse modifiée à une offre", "Un refus définitif", "Un bon de commande"], ans: 1 },
+          { q: "What is Anna trying to do in this episode?", opts: ["Resign from her job", "Negotiate a deal with a customer", "Organise a meeting", "Write a report"], ans: 1 },
+          { q: "Which phrase is used to make an offer politely?", opts: ["Take it or leave it.", "What if we offered you…?", "We refuse to negotiate.", "That's impossible."], ans: 1 },
+          { q: "What does 'to seal the deal' mean?", opts: ["Annuler un accord", "Finaliser et conclure un accord", "Ouvrir une négociation", "Reporter une réunion"], ans: 1 },
         ]
       },
       {
-        id: "v2", title: "How Negotiations Work", source: "Bloomberg Business",
-        ytId: "OaEE5_ZvgAE", duration: "8 min",
-        tip: "Observez comment maintenir une position ferme tout en restant professionnel.",
+        id: "v2", title: "Negotiating a Deal – English at Work #32", source: "BBC Learning English",
+        ytId: "o9KEaQCWqDg", duration: "~5 min",
+        tip: "Observez comment Anna obtient le meilleur accord possible. Notez les expressions de compromis.",
         questions: [
-          { q: "What technique does the seller use to justify the price?", opts: ["Threatening to leave", "Highlighting added value", "Offering a big discount immediately", "Ignoring the objection"], ans: 1 },
-          { q: "What compromise is reached?", opts: ["A 5% discount only", "A price reduction + extended payment terms", "Free delivery alone", "No agreement"], ans: 1 },
-          { q: "Which phrase signals willingness to negotiate?", opts: ["Take it or leave it.", "What if we met halfway?", "I disagree.", "That's impossible."], ans: 1 },
+          { q: "What does Anna need to do in this episode?", opts: ["Cancel a contract", "Get the best deal for her company", "Fire an employee", "Write a proposal"], ans: 1 },
+          { q: "Which phrase shows you are willing to compromise?", opts: ["Absolutely not.", "We could meet you halfway on that.", "That's non-negotiable.", "I don't care."], ans: 1 },
+          { q: "What is a 'deal-breaker'?", opts: ["Une condition acceptable", "Une condition qui empêche l'accord", "Une réduction de prix", "Un délai de livraison"], ans: 1 },
         ]
       },
     ],
@@ -93,23 +93,23 @@ const MODULES_DATA = {
     accent: "#059669", accentLight: "#ECFDF5", iconKey: "user", badge: "Relation Client", estimatedTime: 120,
     videos: [
       {
-        id: "v1", title: "Customer Service Vocabulary", source: "BBC Learning English",
-        ytId: "ihlGHJgVFN8", duration: "5 min",
-        tip: "Relevez les expressions clés pour gérer une réclamation et exprimer l'empathie.",
+        id: "v1", title: "Dealing with Complaints – English at Work", source: "BBC Learning English",
+        ytId: "X7nDkvYSbfs", duration: "~5 min",
+        tip: "Regardez comment gérer un client mécontent. Notez les expressions pour s'excuser et proposer une solution.",
         questions: [
-          { q: "What is the first step when a customer complains?", opts: ["Offer a refund immediately", "Listen actively and show empathy", "Transfer to a manager", "Explain company policy"], ans: 1 },
-          { q: "Which phrase shows empathy?", opts: ["That's not our fault.", "I completely understand your frustration.", "Please hold.", "It happens sometimes."], ans: 1 },
-          { q: "What should you avoid saying to an angry customer?", opts: ["I understand.", "Calm down.", "Let me help you.", "I'll look into this."], ans: 1 },
+          { q: "What is the best first reaction when a customer complains?", opts: ["Argue back immediately", "Listen carefully and apologise", "Transfer the call", "Hang up"], ans: 1 },
+          { q: "Which phrase is used to apologise professionally?", opts: ["It's not my fault.", "I'm really sorry to hear that.", "Call back later.", "That's your problem."], ans: 1 },
+          { q: "What should you always do after solving a complaint?", opts: ["Forget about it", "Follow up to check the customer is satisfied", "Send an invoice", "Transfer to another department"], ans: 1 },
         ]
       },
       {
-        id: "v2", title: "The Future of Customer Experience", source: "Bloomberg",
-        ytId: "PKETkMPRxsE", duration: "7 min",
-        tip: "Identifiez les nouvelles tendances de la relation client évoquées dans le reportage.",
+        id: "v2", title: "Good Customer Relations – English at Work #38", source: "BBC Learning English",
+        ytId: "cJWe8BQcldI", duration: "~5 min",
+        tip: "Observez les techniques utilisées pour garder les clients satisfaits et fidèles.",
         questions: [
-          { q: "What does 'customer churn' mean?", opts: ["La satisfaction client", "La perte de clients", "La fidélité client", "Le volume de ventes"], ans: 1 },
-          { q: "What is 'after-sales service'?", opts: ["La prospection", "Le service après-vente", "La facturation", "Le marketing"], ans: 1 },
-          { q: "What is the final step in handling a complaint?", opts: ["Close the call quickly", "Follow up to ensure satisfaction", "Transfer to billing", "Ask them to call back"], ans: 1 },
+          { q: "What is the main goal of good customer relations?", opts: ["Sell more products immediately", "Keep customers happy and loyal", "Reduce staff costs", "Avoid all complaints"], ans: 1 },
+          { q: "Which phrase shows you value the customer?", opts: ["We're very busy right now.", "Your satisfaction is our priority.", "Read the manual.", "That's company policy."], ans: 1 },
+          { q: "What does 'to retain a customer' mean?", opts: ["Trouver un nouveau client", "Garder un client existant", "Former un employé", "Annuler une commande"], ans: 1 },
         ]
       },
     ],
@@ -150,23 +150,23 @@ const MODULES_DATA = {
     accent: "#7C3AED", accentLight: "#F5F3FF", iconKey: "bar", badge: "Marketing", estimatedTime: 120,
     videos: [
       {
-        id: "v1", title: "Marketing Vocabulary for Business", source: "BBC Learning English",
-        ytId: "mCrIhQMuHgg", duration: "7 min",
-        tip: "Concentrez-vous sur le vocabulaire des 4P et les expressions liées à la stratégie commerciale.",
+        id: "v1", title: "Marketing Strategies – Business English", source: "Business English",
+        ytId: "UHCgzff8X3U", duration: "~6 min",
+        tip: "Concentrez-vous sur le vocabulaire des stratégies marketing et les expressions clés.",
         questions: [
-          { q: "What does the 'P' for Place refer to?", opts: ["Le prix", "Les canaux de distribution", "La publicité", "Le produit"], ans: 1 },
-          { q: "Which 'P' relates to advertising campaigns?", opts: ["Product", "Price", "Place", "Promotion"], ans: 3 },
-          { q: "What is 'market penetration'?", opts: ["Quitter un marché", "Entrer avec un prix bas pour gagner des parts", "Lancer un produit de luxe", "Fermer une ligne"], ans: 1 },
+          { q: "What does 'target audience' mean?", opts: ["Tous les consommateurs", "Le groupe de personnes visé par une campagne", "Le budget marketing", "L'équipe commerciale"], ans: 1 },
+          { q: "What is a 'marketing campaign'?", opts: ["Une réunion d'équipe", "Un ensemble d'actions pour promouvoir un produit", "Un rapport financier", "Une formation"], ans: 1 },
+          { q: "What does 'brand image' refer to?", opts: ["Le logo d'une entreprise uniquement", "La perception globale d'une marque par les consommateurs", "Le chiffre d'affaires", "Le budget publicité"], ans: 1 },
         ]
       },
       {
-        id: "v2", title: "Digital Marketing Trends", source: "Bloomberg Technology",
-        ytId: "bixR-NFRHHY", duration: "9 min",
-        tip: "Notez les termes liés au marketing digital : SEO, CTA, conversion rate.",
+        id: "v2", title: "Digital Marketing – Business English", source: "Business English",
+        ytId: "OvJ1qH0KDGE", duration: "~6 min",
+        tip: "Notez les termes liés au marketing digital : SEO, CTA, conversion rate, social media.",
         questions: [
-          { q: "What is 'SEO'?", opts: ["Social Engagement Optimisation", "Search Engine Optimisation", "Sales Efficiency Output", "Structured Email Operation"], ans: 1 },
-          { q: "What is the purpose of a 'call to action' (CTA)?", opts: ["Expliquer un produit", "Inciter l'utilisateur à agir", "Analyser la concurrence", "Former les équipes"], ans: 1 },
-          { q: "What does 'conversion rate' measure?", opts: ["Le coût d'une campagne", "Le % de visiteurs qui effectuent une action souhaitée", "Le nombre d'abonnés", "Le budget"], ans: 1 },
+          { q: "What is the purpose of social media marketing?", opts: ["Former les employés", "Atteindre et engager les clients en ligne", "Gérer la comptabilité", "Organiser des réunions"], ans: 1 },
+          { q: "What does 'engagement' mean in digital marketing?", opts: ["Un contrat signé", "L'interaction des utilisateurs avec le contenu", "Le coût d'une publicité", "Le nombre d'employés"], ans: 1 },
+          { q: "What is 'content marketing'?", opts: ["Vendre des produits physiques", "Créer du contenu utile pour attirer des clients", "Former les équipes de vente", "Gérer les réclamations"], ans: 1 },
         ]
       },
     ],
@@ -207,23 +207,23 @@ const MODULES_DATA = {
     accent: "#EA580C", accentLight: "#FFF7ED", iconKey: "globe", badge: "Prospection", estimatedTime: 120,
     videos: [
       {
-        id: "v1", title: "Sales Vocabulary for Prospecting", source: "BBC Learning English",
-        ytId: "iZbCNFMYMoI", duration: "6 min",
-        tip: "Concentrez-vous sur le vocabulaire de la prospection : pipeline, lead, prospect, pitch.",
+        id: "v1", title: "Making a Cold Call – English at Work #29", source: "BBC Learning English",
+        ytId: "7XXXo_7HlP8", duration: "~5 min",
+        tip: "Regardez comment passer un appel de prospection. Notez les expressions pour se présenter et obtenir un rendez-vous.",
         questions: [
-          { q: "What is the key to a good cold call opening?", opts: ["Parler le plus longtemps possible", "Être bref et apporter de la valeur immédiatement", "Demander si c'est le bon moment 5 min", "Lire un script mot à mot"], ans: 1 },
-          { q: "What does 'gatekeeper' refer to?", opts: ["Le décideur", "La personne qui contrôle l'accès au décideur", "Un logiciel CRM", "Un prospect qualifié"], ans: 1 },
-          { q: "What is the goal of a cold call?", opts: ["Vendre immédiatement", "Obtenir un RDV ou qualifier le prospect", "Présenter tout le catalogue", "Négocier un contrat"], ans: 1 },
+          { q: "What is Anna trying to do in this episode?", opts: ["Order office supplies", "Make a cold call to a potential client", "Organise a team meeting", "Send an email"], ans: 1 },
+          { q: "How should you introduce yourself on a cold call?", opts: ["Just say your first name", "State your full name and company clearly", "Ask who you're speaking to first", "Start with the price"], ans: 1 },
+          { q: "What is the goal of a cold call?", opts: ["Vendre immédiatement", "Obtenir un rendez-vous ou qualifier le prospect", "Présenter tout le catalogue", "Négocier un contrat"], ans: 1 },
         ]
       },
       {
-        id: "v2", title: "The Future of B2B Sales", source: "Bloomberg Business",
-        ytId: "T5zFODknpMw", duration: "7 min",
-        tip: "Observez comment le digital transforme les techniques de vente B2B.",
+        id: "v2", title: "The Elevator Pitch – English at Work #45", source: "BBC Learning English",
+        ytId: "2dpVQ8aIRis", duration: "~5 min",
+        tip: "Observez comment présenter une idée de façon convaincante en peu de temps.",
         questions: [
-          { q: "What does 'to qualify a lead' mean?", opts: ["Envoyer un email", "Évaluer si un contact peut devenir client", "Clôturer une vente", "Rédiger un contrat"], ans: 1 },
-          { q: "What is 'social selling'?", opts: ["Vendre sur les marchés", "Utiliser les réseaux sociaux pour prospecter", "Former les équipes", "Gérer les réclamations"], ans: 1 },
-          { q: "Best way to handle 'It's too expensive'?", opts: ["Baisser le prix immédiatement", "Focus on value and ROI, not just price", "End the call", "Argue they are wrong"], ans: 1 },
+          { q: "What is an 'elevator pitch'?", opts: ["Une longue présentation formelle", "Un discours court et percutant pour convaincre rapidement", "Un email de prospection", "Un rapport de vente"], ans: 1 },
+          { q: "How long should an elevator pitch be?", opts: ["30 minutes", "1 hour", "30 to 60 seconds", "10 minutes"], ans: 2 },
+          { q: "What is the most important element of a good pitch?", opts: ["Using technical jargon", "Clearly explaining the value you bring", "Listing all product features", "Reading from notes"], ans: 1 },
         ]
       },
     ],
